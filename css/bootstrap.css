@@ -1090,12 +1090,9 @@ body {
   background-image: url("/images/birdonwire.jpg");
 }
 jumbotron {
-	margin-bottom: 0px;
     background-image: url("/images/birdonwire.jpg");
     background-size: cover;
-    background-repeat: no-repeat;
 }
-
 input,
 button,
 select,
