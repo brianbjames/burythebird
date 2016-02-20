@@ -1,273 +1,119 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>    
+  <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-	<meta name="description" content="Writer, editor, and educator, living in San Francisco, California.">
-	<meta name="keywords" content="Fiction, Science, Editing, Education">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
 
     <title>Katie M. Flynn</title>
 
-    <!-- Bootstrap -->
-    <link href="/css/bootstrap.css" rel="stylesheet">    
-   <!--Font Awesome -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <!-- Bootstrap core CSS -->
+    <link href="/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="sticky-footer-navbar.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+    <style> .myList{ list-style-type: none;} </style>
   </head>
+
   <body>
-	<!--NAV BAR START-->
-	<nav class="navbar navbar-default">
-	  <div class="container-fluid">
-	    <!-- Brand and toggle get grouped for better mobile display -->
-	    <div class="navbar-header">
-	      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-	        <span class="sr-only">Toggle navigation</span>
-	        <span class="icon-bar"></span>
-	        <span class="icon-bar"></span>
-	        <span class="icon-bar"></span>
-	      </button>
-	      <a class="navbar-brand" href="/index.html">
-		        <img alt="Brand" height="40" width="40" src="/images/soundpress_stencil_sp_small.png">
-		      </a>
-	    </div>
 
-	    <!-- Collect the nav links, forms, and other content for toggling -->
-	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-	      <ul class="nav navbar-nav">
-		</br>  
-	          	<a href="http://twitter.com/sndpress" target="_blank"><i class="fa fa-twitter fa-2x"></i></a>
-				<a href="http://facebook.com/pages/Soundpress-Records/154489937939017" target="_blank"><i class="fa fa-facebook fa-2x"></i></a>
-	            <a href="https://soundcloud.com/soundpressrecords" target="_blank"><i class="fa fa-soundcloud fa-2x"></i></a>
-	            <a href="http://sndpress.tumblr.com/" target="_blank"><i class="fa fa-tumblr fa-2x"></i></a>
-	            <a href="http://reverbnation.com/soundpressrecords" target="_blank"><i class="fa fa-star fa-2x"></i></a>
-	      </ul>
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="#" class="navbar-brand">Katie M. Flynn</a>
+        </div>
+        <!-- Collection of nav links and other content for toggling -->
+        <div id="navbarCollapse" class="collapse navbar-collapse">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="/stories.html">stories</a></li>
+                <li><a href="/services.html">services</a></li>
+                <li><a href="/contact.html">contact</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
 
-	      <ul class="nav navbar-nav navbar-right">
-	        <li></br>  
-				<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr"
-				        method="post">
-				    <!-- Identify your business so that you can collect the payments. -->
-				    <input type="hidden" name="business" value="brianb.james@mac.com">
-				    <!-- Specify a PayPal Shopping Cart View Cart button. -->
-				    <input type="hidden" name="cmd" value="_cart">
-				    <input type="hidden" name="display" value="1">
-				    <!-- Display the View Cart button. -->
-				    <input type="image" name="submit" border="0" height="40" width="50" src="/images/cart.png" alt="PayPal - The safer, easier way to pay online">
-				    <img alt="" border="0" width="1" height="1"
-				        src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" >
-				</form>
-				</br>
-			</li>
-	      </ul>
-	    </div><!-- /.navbar-collapse -->
-	  </div><!-- /.container-fluid -->
-	</nav>
-	<!--NAV BAR END-->
-	<div class="container">  
+
+    <!-- Fixed navbar -->
+    <!--<nav class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+		  <h1>Katie M. Flynn<small></h1>
+          <ul class="nav nav-tabs">
+          <li role="presentation" class="active"><a href="#">About</a></li>
+          <li role="presentation"><a href="#">Publications</a></li>
+          <li role="presentation"><a href="#">Services</a></li>
+          <li role="presentation"><a href="#">Contact</a></li>
+          </ul>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">-->
+            <!--<li class="active"><a href="#">Home</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+                <li role="separator" class="divider"></li>
+                <li class="dropdown-header">Nav header</li>
+                <li><a href="#">Separated link</a></li>
+                <li><a href="#">One more separated link</a></li>
+              </ul>
+            </li>-->
+          <!--</ul>-->
+        <!--</div>--><!--/.nav-collapse -->
+      <!--</div>-->
+    <!--</nav>--><!--End Fixed navbar -->
+    <div class="container">  
 		<div class="jumbotron">
 		  <div class="container">
-		   	<h1>Total Unicorn
-			</br><strong><i>Relaxation</i></strong></h1>
-			  <p>First full-length release by Austin's most horny electro unit.
-				</br></p>
-				<a href="https://itunes.apple.com/album/relaxation-tape/id1053199618&ls=1" class="btn btn-default btn-xs" target="_blank">Listen on Apple Music</a>
-			  <!--<p><a class="btn btn-primary btn-lg" href="/thetictocs/index.html" role="button" target="_blank">What</a></p>-->
+				</br></br></br></br></br></br></br>
 		  </div>
 		</div> 
     </div>
+
+
+    <!-- Begin page content -->
     <div class="container">
-		<div class="row">
-	      <div class="col-sm-6 col-md-4">
-	        <div class="thumbnail">
-	          <img data-src="holder.js/100%x200" alt="Americans" style="height: 100%; width: 100%; display: block;" src="/images/PanchoSanAmericansCover.png" data-holder-rendered="true">
-	          <div class="caption">
-	            <h3>Pancho-san's <strong><i>Americans</i></strong> - CD</h3>
-	            <p>Sophomore release of former Rogue Wave and Beulah member, Patrick Abernethy.</p>
-				<p><a href="https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewAlbum?id=563049467&mt=1&ls=1" class="btn btn-default btn-xs" target="_blank">iTunes</a>
-				<a href="https://soundcloud.com/pancho-san" class="btn btn-default btn-xs" target="_blank">Soundcloud</a>
-				<a href="http://pancho-san.bandcamp.com" class="btn btn-default btn-xs" target="_blank">Bandcamp</a>
-				<a href="http://www.pancho-san.tumblr.com" class="btn btn-default btn-xs" target="_blank">Tumblr</a>
-				<a href="https://www.facebook.com/pages/Pancho-san/195048407947" class="btn btn-default btn-xs" target="_blank">Facebook</a>
-				<a href="http://vimeo.com/user14528109" class="btn btn-default btn-xs" target="_blank">Vimeo</a></p>
-	            <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-				<input type="hidden" name="cmd" value="_s-xclick">
-				<input type="hidden" name="hosted_button_id" value="XTWG4CH588FNN">
-				<input type="image" height="20" width="25" src="/images/cart.png" border="0" name="submit" alt="Add to Cart">
-				<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-				</form>
-	          </div>
-	        </div>
-	      </div>
-	      <div class="col-sm-6 col-md-4">
-	        <div class="thumbnail">
-	          <img data-src="holder.js/100%x200" alt="Planning My Escape" style="height: 100%; width: 100%; display: block;" src="/images/flatwheelerEPCoverSmall.jpg" data-holder-rendered="true">
-	          <div class="caption">
-	            <h3>Flat Wheeler's <strong><i>Planning My Escape</i></strong> - 7' EP</h3>
-	            <p>Born in the land of milk and honey from where dreams go to die.</p>
-	            <p><a href="https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewAlbum?id=662951602&mt=1&ls=1" class="btn btn-default btn-xs" target="_blank">iTunes</a>
-				<a href="http://flatwheeler.bandcamp.com/" class="btn btn-default btn-xs" target="_blank">Bandcamp</a>
-				<a href="https://www.facebook.com/flatwheeler" class="btn btn-default btn-xs" target="_blank">Facebook</a>
-				<a href="http://www.flatwheelermusic.com/" class="btn btn-default btn-xs" target="_blank">Web</a></p>
-	            <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-				<input type="hidden" name="cmd" value="_s-xclick">
-				<input type="hidden" name="hosted_button_id" value="QCSDVLCM3W5SE">
-				<input type="image" height="20" width="25" src="/images/cart.png" border="0" name="submit" alt="Add to Cart">
-				<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-				</form>
-	          </div>
-	        </div>
-	      </div>
-	      <div class="col-sm-6 col-md-4">
-	        <div class="thumbnail">
-	          <img data-src="holder.js/100%x200" alt="Notion People" style="height: 100%; width: 100%; display: block;" src="/images/NOTIONPEOPLECOVER.png" data-holder-rendered="true">
-	          <div class="caption">
-	            <h3><strong><i>Notion People</i></strong></h3>
-	            <p>Lairdander fallout. A little ShitTorrent seeds. SF super-cycles-instrumental-prog-rock.</p>
-	            <p><a href="https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewAlbum?id=510561530&mt=1&ls=1" class="btn btn-default btn-xs" target="_blank">iTunes</a>
-				<a href="https://soundcloud.com/notionpeople" class="btn btn-default btn-xs" target="_blank">Soundcloud</a>
-				<a href="http://notionpeople.bandcamp.com/" class="btn btn-default btn-xs" target="_blank">Bandcamp</a>
-				<a href="https://twitter.com/NOTIONPEOPLE" class="btn btn-default btn-xs" target="_blank">Twitter</a>
-				<a href="https://www.facebook.com/notionpeople" class="btn btn-default btn-xs" target="_blank">Facebook</a>
-				<a href="http://www.youtube.com/user/NOTIONPEOPLE" class="btn btn-default btn-xs" target="_blank">YouTube</a>
-				<a href="https://www.flickr.com/photos/notionpeople" class="btn btn-default btn-xs" target="_blank">Flickr</a>
-				<a href="http://www.notionpeople.com/" class="btn btn-default btn-xs" target="_blank">Web</a></p>
-	          </div>
-	        </div>
-	      </div>
-	    </div>
-	 	<div class="row">
-	      <div class="col-sm-6 col-md-4">
-	        <div class="thumbnail">
-	          <img data-src="holder.js/100%x200" alt="The Tics Tocs" style="height: 100%; width: 100%; display: block;" src="/images/TicTocsCover.jpg" data-holder-rendered="true">
-	          <div class="caption">
-	            <h3><strong><i>The Tics Tocs</i></strong></h3>
-	            <p>Four homeless men emerging from the gutters of Riverside come forward.</p>
-	            <p><a href="https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewAlbum?id=538287993&mt=1&ls=1" class="btn btn-default btn-xs" target="_blank">iTunes</a>
-				<a href="https://soundcloud.com/tictocs" class="btn btn-default btn-xs" target="_blank">Soundcloud</a>
-				<a href="https://twitter.com/TheTicTocs" class="btn btn-default btn-xs" target="_blank">Twitter</a>
-				<a href="http://www.reverbnation.com/thetictocs" class="btn btn-default btn-xs" target="_blank">ReverbNation</a>
-				<a href="https://www.facebook.com/thetictocs" class="btn btn-default btn-xs" target="_blank">Facebook</a>
-				</p>
-	          </div>
-	        </div>
-	      </div>
-	      <div class="col-sm-6 col-md-4">
-	        <div class="thumbnail">
-	          <img data-src="holder.js/100%x200" alt="Myotonia" style="height: 100%; width: 100%; display: block;" src="/images/myotoniaCDCover.jpg" data-holder-rendered="true">
-	          <div class="caption">
-	            <h3><strong><i>Myotonia</i></strong> - CD</h3>
-	            <p>Death. Impotent. Luckfuv. Prophet. Of, Death. Oakland, Myotonia. Rest In Piece.</p>
-	            <p><a href="https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewAlbum?id=259281529&mt=1&ls=1" class="btn btn-default btn-xs" target="_blank">iTunes</a>
-				<a href="https://www.facebook.com/pages/Myotonia/205572659544073" class="btn btn-default btn-xs" target="_blank">Facebook</a></p>
-	            <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-				<input type="hidden" name="cmd" value="_s-xclick">
-				<input type="hidden" name="hosted_button_id" value="8ZYJAAJUE3BDA">
-				<input type="image" height="20" width="25" src="/images/cart.png" border="0" name="submit" alt="Add to Cart">
-				<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-				</form>
-	          </div>
-	        </div>
-	      </div>
-	      <div class="col-sm-6 col-md-4">
-	        <div class="thumbnail">
-	          <img data-src="holder.js/100%x200" alt="Building a Circuit Into a Big Vat of Refried Beans" style="height: 100%; width: 100%; display: block;" src="/images/SoundPressComp1.jpg" data-holder-rendered="true">
-	          <div class="caption">
-	            <h3>Soundpress Compilation 1 <strong><i>Building a Circuit Into a Big Vat of Refried Beans</i></strong></h3>
-	            <p>Johns, ReRunner, Lairdander, spratt, Dantzig, Krishnan, Jurado, Crowbard, Test, Konovaliv, Symboli, James, Whaley, swank106, Morris, Tallman.</p>
-	            <p><a href="https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewAlbum?id=322636005&mt=1&ls=1" class="btn btn-default btn-xs" target="_blank">iTunes</a></p>
-	          </div>
-	        </div>
-	      </div>
-	      <div class="col-sm-6 col-md-4">
-	        <div class="thumbnail">
-	          <img data-src="holder.js/100%x200" alt="Seaford Suite" style="height: 100%; width: 100%; display: block;" src="/images/SeafordSuiteCover_draft_500x500.jpg" data-holder-rendered="true">
-	          <div class="caption">
-	            <h3>The Crowbard's <strong><i>Seaford Suite</i></strong></h3>
-	            <p>For some of us, music works as interlude to the day's events. The world presented by The Crowbard, it's only life that gets in the way of the music.</p>
-	            <p><a href="https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewAlbum?id=371455058&mt=1&ls=1" class="btn btn-default btn-xs" target="_blank">iTunes</a></p>
-	          </div>
-	        </div>
-	      </div>
-	      <div class="col-sm-6 col-md-4">
-	        <div class="thumbnail">
-	          <img data-src="holder.js/100%x200" alt="Seitan" style="height: 100%; width: 100%; display: block;" src="/images/Seitan.jpg" data-holder-rendered="true">
-	          <div class="caption">
-	            <h3>Brian B. James' <strong><i>Seitan</i></strong></h3>
-	            <p>Situation. Process. Time. Method. Circumstance. Materials. Frequency. Lack. Non-concrete. Concrete.</p>
-	            <p><a href="https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewAlbum?id=316831201&ls=1" class="btn btn-default btn-xs" target="_blank">iTunes</a></p>
-	          </div>
-	        </div>
-	      </div> 
-	      <div class="col-sm-6 col-md-4">
-	        <div class="thumbnail">
-	          <img data-src="holder.js/100%x200" alt="sp009" style="height: 100%; width: 100%; display: block;" src="/images/sp009.png" data-holder-rendered="true">
-	          <div class="caption">
-	            <h3>Soundtest's <strong><i>sp009</i></strong></h3>
-	            <p>San Francisco SFSU fallout free-improvised-imagery-chart-dreamers first release.</p>
-	            <p><a href="http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewAlbum?id=209681129&ls=1" class="btn btn-default btn-xs" target="_blank">iTunes</a></p>
-	          </div>
-	        </div>
-	      </div>
-	    </div>
-	
-	    <!--
-	    <div class="media">
-	      <div class="media-left">
-	        <a href="#">
-	          <img class="media-object" data-src="holder.js/64x64" alt="64x64" style="width: 64px; height: 64px;" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iNjQiIGhlaWdodD0iNjQiIHZpZXdCb3g9IjAgMCA2NCA2NCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+PCEtLQpTb3VyY2UgVVJMOiBob2xkZXIuanMvNjR4NjQKQ3JlYXRlZCB3aXRoIEhvbGRlci5qcyAyLjYuMC4KTGVhcm4gbW9yZSBhdCBodHRwOi8vaG9sZGVyanMuY29tCihjKSAyMDEyLTIwMTUgSXZhbiBNYWxvcGluc2t5IC0gaHR0cDovL2ltc2t5LmNvCi0tPjxkZWZzPjxzdHlsZSB0eXBlPSJ0ZXh0L2NzcyI+PCFbQ0RBVEFbI2hvbGRlcl8xNGYzNDJiZDljZiB0ZXh0IHsgZmlsbDojQUFBQUFBO2ZvbnQtd2VpZ2h0OmJvbGQ7Zm9udC1mYW1pbHk6QXJpYWwsIEhlbHZldGljYSwgT3BlbiBTYW5zLCBzYW5zLXNlcmlmLCBtb25vc3BhY2U7Zm9udC1zaXplOjEwcHQgfSBdXT48L3N0eWxlPjwvZGVmcz48ZyBpZD0iaG9sZGVyXzE0ZjM0MmJkOWNmIj48cmVjdCB3aWR0aD0iNjQiIGhlaWdodD0iNjQiIGZpbGw9IiNFRUVFRUUiLz48Zz48dGV4dCB4PSIxMy4yMjY1NjI1IiB5PSIzNi41MzI4MTI1Ij42NHg2NDwvdGV4dD48L2c+PC9nPjwvc3ZnPg==" data-holder-rendered="true">
-	        </a>
-	      </div>
-	      <div class="media-body">
-	        <h4 class="media-heading">Media heading</h4>
-	        Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
-	      </div>
-	    </div>
-	    <div class="media">
-	      <div class="media-left">
-	        <a href="#">
-	          <img class="media-object" data-src="holder.js/64x64" alt="64x64" style="width: 64px; height: 64px;" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iNjQiIGhlaWdodD0iNjQiIHZpZXdCb3g9IjAgMCA2NCA2NCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+PCEtLQpTb3VyY2UgVVJMOiBob2xkZXIuanMvNjR4NjQKQ3JlYXRlZCB3aXRoIEhvbGRlci5qcyAyLjYuMC4KTGVhcm4gbW9yZSBhdCBodHRwOi8vaG9sZGVyanMuY29tCihjKSAyMDEyLTIwMTUgSXZhbiBNYWxvcGluc2t5IC0gaHR0cDovL2ltc2t5LmNvCi0tPjxkZWZzPjxzdHlsZSB0eXBlPSJ0ZXh0L2NzcyI+PCFbQ0RBVEFbI2hvbGRlcl8xNGYzNDJiZDljZiB0ZXh0IHsgZmlsbDojQUFBQUFBO2ZvbnQtd2VpZ2h0OmJvbGQ7Zm9udC1mYW1pbHk6QXJpYWwsIEhlbHZldGljYSwgT3BlbiBTYW5zLCBzYW5zLXNlcmlmLCBtb25vc3BhY2U7Zm9udC1zaXplOjEwcHQgfSBdXT48L3N0eWxlPjwvZGVmcz48ZyBpZD0iaG9sZGVyXzE0ZjM0MmJkOWNmIj48cmVjdCB3aWR0aD0iNjQiIGhlaWdodD0iNjQiIGZpbGw9IiNFRUVFRUUiLz48Zz48dGV4dCB4PSIxMy4yMjY1NjI1IiB5PSIzNi41MzI4MTI1Ij42NHg2NDwvdGV4dD48L2c+PC9nPjwvc3ZnPg==" data-holder-rendered="true">
-	        </a>
-	      </div>
-	      <div class="media-body">
-	        <h4 class="media-heading">Media heading</h4>
-	        Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
-	      </div>
-	    </div>
-	-->
-		
-	</div>
-	<div class="container">              
-		<iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/2858611&amp;color=000000&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>  
-	</div>
-	</br>
-	</br> 
-	      <footer class="footer"> 
-			<div class="panel panel-default">
-		        <div class="row">
-		          <div class="col-lg-12">
-	                <form class="navbar-form navbar-left" method="post" name="Emailform" action="http://www.soundpressrecords.com/php/contact.php" target="_self" onSubmit="return checkemail(this)">
-				        <div class="form-group">
-				          <input type="text" name="email" class="form-control" placeholder="Email">
-				          <button type="submit" class="btn btn-default">Subscribe</button>
-						</div>
-					</form> 
-					</br>
-		            <p class="text-muted navbar-form navbar-right">© <a href="mailto:admin@soundpressrecords.com">Soundpress Records</a>, 2015</p>
-		          </div>
-		        </div>
-			</div>
-	      </footer>
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+      <div class="page-header"></br>
+        <h1>Site Under Construction</h1>
+      </div>
+      <p class="lead">Stay tuned.</p>
+    </div>
+
+    <footer class="footer">
+      <div class="container">
+        <p class="text-muted">© Katie M. Flynn, 2015</p>
+      </div>
+    </footer>
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="/js/bootstrap.min.js"></script>
+    <script src="../../dist/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
   </body>
 </html>
+
+<!-- text below generated by server. PLEASE REMOVE --><!-- Counter/Statistics data collection code --><script language="JavaScript" src="http://l.yimg.com/d/lib/smb/js/hosting/cp/js_source/whv2_001.js"></script><script language="javascript">geovisit();</script><noscript><img src="http://visit.webhosting.yahoo.com/visit.gif?us1455993039" alt="setstats" border="0" width="1" height="1"></noscript><script type="text/javascript">(function (d, w) {var x = d.getElementsByTagName('SCRIPT')[0];var f = function () {var s = d.createElement('SCRIPT');s.type = 'text/javascript';s.async = true;s.src = "//np.lexity.com/embed/YW/06bf3a6e3806ef41dd11bbc288fc3fd7?id=0858eb14f4f3";x.parentNode.insertBefore(s, x);};w.attachEvent ? w.attachEvent('onload',f) :w.addEventListener('load',f,false);}(document, window));</script>
