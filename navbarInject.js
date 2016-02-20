@@ -1,0 +1,18 @@
+document.write("<div class=\"container\">");
+document.write("    <div class=\"navbar-header\">");
+document.write("      <button type=\"button\" class=\"navbar-toggle collapsed\" data-toggle=\"collapse\" data-target=\"#navbar\" aria-expanded=\"false\" aria-controls=\"navbar\">");
+document.write("        <span class=\"sr-only\">Toggle navigation<\/span>");
+document.write("        <span class=\"icon-bar\"><\/span>");
+document.write("        <span class=\"icon-bar\"><\/span>");
+document.write("        <span class=\"icon-bar\"><\/span>");
+document.write("      <\/button>");
+document.write("      <a class=\"navbar-brand\" href=\"http:\/\/burythebird.com\">Katie M. Flynn<\/a>");
+document.write("    <\/div>");
+document.write("    <div id=\"navbar\" class=\"navbar-collapse collapse\">");
+document.write("      <ul class=\"nav navbar-nav\">");
+document.write("		<li><a href=\"http:\/\/burythebird.com\/writing.html\">Writing<\/a><\/li>");
+document.write("		<li><a href=\"http:\/\/burythebird.com\/editing.html\">Editing<\/a><\/li>"); 
+document.write("		<li><a href=\"http:\/\/burythebird.com\/in-progress.html\">In Progress<\/a><\/li>");
+document.write("		<li><a href=\"http:\/\/burythebird.com\/about.html\">About<\/a><\/li>");
+document.write("    <\/div><!--\/.nav-collapse -->");
+document.write("  <\/div>");
