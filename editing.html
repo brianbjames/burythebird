@@ -45,19 +45,31 @@
     </div>
 
 
-    <!-- Begin page content -->
-    <div class="container">
-      <div class="list-group">
-		<a href="#" class="list-group-item">
-	      <h4 class="list-group-item-heading">"<i>Story Title</i>" (forthcoming) in Journal Name, YEAR</h4>
-	      <p class="list-group-item-text">Health goth kitsch sint, butcher mustache paleo blog yuccie ea PBR&B accusamus labore. Locavore fixie blue bottle in, pork belly exercitation consequat placeat helvetica vegan ex celiac VHS plaid vice. Commodo craft beer yuccie meditation. Disrupt sint +1, williamsburg YOLO gluten-free farm-to-table chicharrones dolore aesthetic cupidatat chartreuse gentrify laborum. Pop-up twee austin affogato. Retro echo park godard everyday carry. Slow-carb swag meditation, food truck gentrify cillum cornhole beard photo booth kombucha brooklyn chambray microdosing meggings.</p>
-	    </a>
-		<a href="#" class="list-group-item">
-	      <h4 class="list-group-item-heading">"<i>Story Title</i>" (forthcoming) in Journal Name, YEAR</h4>
-	      <p class="list-group-item-text">Health goth kitsch sint, butcher mustache paleo blog yuccie ea PBR&B accusamus labore. Locavore fixie blue bottle in, pork belly exercitation consequat placeat helvetica vegan ex celiac VHS plaid vice. Commodo craft beer yuccie meditation. Disrupt sint +1, williamsburg YOLO gluten-free farm-to-table chicharrones dolore aesthetic cupidatat chartreuse gentrify laborum. Pop-up twee austin affogato. Retro echo park godard everyday carry. Slow-carb swag meditation, food truck gentrify cillum cornhole beard photo booth kombucha brooklyn chambray microdosing meggings.</p>
-	    </a>
-	  </div>
-    </div>
+    <!-- Begin page content -->    
+ 	  <div class="container">    
+	        <div class="panel panel-default">
+				<div class="panel-body">
+			<!--BEGIN FORM-->
+			<form method="post" name="Emailform" action="editsubmit.php" target="_self" onSubmit="return checkemail(this)"> 
+
+			<input class="form-control" type="text" style="width:50%" placeholder="Name" name="nameline"/> 
+			</br>
+			<input class="form-control" type="text" style="width:50%" placeholder="Email" name="emailline"/> 
+			</br>
+            
+			<textarea class="form-control" type="text" style="width:50%" placeholder="Message" name="consign1" cols="40" rows="8"></textarea>
+			</br>
+			<!--End Section 1-->
+
+
+			<input class="btn btn-default form-control" style="width:25%;" type="submit" name="submit" value="Submit" /> 
+
+			</table> 
+			</form> 
+			<!--END FORM--> 
+		  </div>
+	   
+	      </div>
 
     <footer class="footer">
       <div class="container">
