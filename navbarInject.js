@@ -10,7 +10,7 @@ document.write("      <a class=\"navbar-brand\" href=\"http:\/\/burythebird.com\
 document.write("    <\/div>");
 document.write("    <div id=\"navbar\" class=\"navbar-collapse collapse\">");
 document.write("      <ul class=\"nav navbar-nav\">");
-document.write("		<li><a href=\"http:\/\/burythebird.com\/writing.html\">Writing<\/a><\/li>");
+document.write("		<li><a href=\"http:\/\/burythebird.com\/publications.html\">Publications<\/a><\/li>");
 document.write("		<li><a href=\"http:\/\/burythebird.com\/editing.html\">Editing<\/a><\/li>"); 
 document.write("		<li><a href=\"http:\/\/burythebird.com\/in-progress.html\">In Progress<\/a><\/li>");
 document.write("		<li><a href=\"http:\/\/burythebird.com\/about.html\">About<\/a><\/li>");
