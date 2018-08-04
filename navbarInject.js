@@ -13,7 +13,7 @@ document.write("      <ul class=\"nav navbar-nav\">");
 document.write("		<li><a href=\"http:\/\/burythebird.com\/publications.html\">Publications<\/a><\/li>");
 document.write("		<li><a href=\"http:\/\/burythebird.com\/editing.html\">Editing<\/a><\/li>");
 document.write("		<li><a href=\"http:\/\/burythebird.com\/about.html\">About<\/a><\/li>");
-document.write("		<li><a href=\"mailto:kmflynn@mac.com\">Contact<\/a><\/li><\/ul>"); 
+document.write("		<li><a href=\"http:\/\/burythebird.com\/contact.html\">Contact<\/a><\/li>"); 
 document.write("      <ul class=\"nav navbar-nav navbar-right\">");
 document.write("		<li><a href=\"http:\/\/twitter.com\/other_katie\" target=\"_blank\"><i class=\"fa fa-twitter fa-2x\"><\/i><\/a><\/li><\/ul>"); 
 document.write("    <\/div><!--\/.nav-collapse -->");
